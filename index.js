@@ -7,11 +7,11 @@ import Interests from './components/Interests'
 import Footer from './components/Footer'
 
 ReactDOM.render(
-    <>
+    <div>
         <Info />
         <About />
         <Interests />
         <Footer />
-    </>,
+    </div>,
     document.getElementById('root')
 )
