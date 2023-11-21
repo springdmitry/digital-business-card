@@ -1,18 +1,15 @@
 {
   "name": "project",
   "dependencies": {
-    "lodash": "^4.17.21",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "vite": "^5.0.2"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "babel-core": "^4.7.16",
+    "webpack": "^2.0",
+    "babel-core": "^6.0",
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
-    "babel-preset-react": "*",
-    "webpack": "^5.89",
-    "webpack-cli": "^5.1.4"
+    "babel-preset-react": "*"
   },
   "scripts": {
     "build": "webpack",
