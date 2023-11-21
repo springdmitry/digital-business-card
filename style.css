@@ -101,6 +101,10 @@ footer i {
     color: #918E9B
 }
 
+footer i:hover {
+    background-color: #297FE5;
+}
+
 footer a {
     margin: 19px 12px;
 }
